@@ -51,6 +51,6 @@ When publishing a new image:
 - DNS: `dig`, `nslookup`, `host`
 - Network debugging: `ip`, `ping`, `tracepath`, `traceroute`, `mtr`, `ss`, `netstat`, `nc`, `socat`, `nmap`, `tcpdump`
 - Process debugging: `ps`, `top`, `lsof`, `strace`
-- Data helpers: `jq`, `yq`
+- Data helpers and scripting: `jq`, `yq`, `python3`, `pip`, `venv`
 - Cluster access: `kubectl`
 - Common clients: `psql`, `mysql`, `redis-cli`, `telnet`
