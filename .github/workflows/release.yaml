@@ -242,6 +242,8 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
+          provenance: false
+          sbom: false
           tags: ${{ steps.tags.outputs.tags }}
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
