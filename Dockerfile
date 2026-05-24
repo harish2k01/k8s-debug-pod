@@ -26,6 +26,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     openssl \
     postgresql-client \
     procps \
+    python3 \
+    python3-pip \
+    python3-venv \
     redis-tools \
     socat \
     strace \
